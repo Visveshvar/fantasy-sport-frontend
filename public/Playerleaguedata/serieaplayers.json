@@ -1,0 +1,215 @@
+{
+    "teams":[
+        {
+            "team": "AC Milan",
+            "players": [
+                { "name": "Mike Maignan", "age": 28, "position": "Goalkeeper" },
+                { "name": "Ciprian Tătărușanu", "age": 38, "position": "Goalkeeper" },
+                { "name": "Davide Calabria", "age": 27, "position": "Defender" },
+                { "name": "Fikayo Tomori", "age": 26, "position": "Defender" },
+                { "name": "Theo Hernández", "age": 26, "position": "Defender" },
+                { "name": "Simon Kjær", "age": 35, "position": "Defender" },
+                { "name": "Pierre Kalulu", "age": 23, "position": "Defender" },
+                { "name": "Alessandro Florenzi", "age": 33, "position": "Defender" },
+                { "name": "Ismaël Bennacer", "age": 26, "position": "Midfielder" },
+                { "name": "Sandro Tonali", "age": 24, "position": "Midfielder" },
+                { "name": "Rade Krunić", "age": 30, "position": "Midfielder" },
+                { "name": "Brahim Díaz", "age": 24, "position": "Midfielder" },
+                { "name": "Charles De Ketelaere", "age": 23, "position": "Midfielder" },
+                { "name": "Junior Messias", "age": 32, "position": "Midfielder" },
+                { "name": "Rafael Leão", "age": 25, "position": "Forward" },
+                { "name": "Olivier Giroud", "age": 37, "position": "Forward" },
+                { "name": "Zlatan Ibrahimović", "age": 42, "position": "Forward" },
+                { "name": "Ante Rebić", "age": 30, "position": "Forward" },
+                { "name": "Divock Origi", "age": 29, "position": "Forward" }
+            ]
+        },
+        {
+            "team": "AS Roma",
+            "players": [
+                { "name": "Rui Patrício", "age": 36, "position": "Goalkeeper" },
+                { "name": "Mile Svilar", "age": 24, "position": "Goalkeeper" },
+                { "name": "Gianluca Mancini", "age": 28, "position": "Defender" },
+                { "name": "Chris Smalling", "age": 34, "position": "Defender" },
+                { "name": "Roger Ibañez", "age": 25, "position": "Defender" },
+                { "name": "Diego Llorente", "age": 30, "position": "Defender" },
+                { "name": "Leonardo Spinazzola", "age": 31, "position": "Defender" },
+                { "name": "Rick Karsdorp", "age": 29, "position": "Defender" },
+                { "name": "Nemanja Matić", "age": 36, "position": "Midfielder" },
+                { "name": "Bryan Cristante", "age": 29, "position": "Midfielder" },
+                { "name": "Lorenzo Pellegrini", "age": 28, "position": "Midfielder" },
+                { "name": "Georginio Wijnaldum", "age": 33, "position": "Midfielder" },
+                { "name": "Paulo Dybala", "age": 30, "position": "Forward" },
+                { "name": "Tammy Abraham", "age": 26, "position": "Forward" },
+                { "name": "Andrea Belotti", "age": 30, "position": "Forward" },
+                { "name": "Stephan El Shaarawy", "age": 31, "position": "Forward" },
+                { "name": "Eldor Shomurodov", "age": 28, "position": "Forward" },
+                { "name": "Nicola Zalewski", "age": 22, "position": "Midfielder" }
+            ]
+        },
+        {
+            "team": "Atalanta",
+            "players": [
+                { "name": "Juan Musso", "age": 29, "position": "Goalkeeper" },
+                { "name": "Marco Sportiello", "age": 32, "position": "Goalkeeper" },
+                { "name": "Rafael Tolói", "age": 33, "position": "Defender" },
+                { "name": "Berat Djimsiti", "age": 30, "position": "Defender" },
+                { "name": "José Luis Palomino", "age": 34, "position": "Defender" },
+                { "name": "Giorgio Scalvini", "age": 20, "position": "Defender" },
+                { "name": "Hans Hateboer", "age": 30, "position": "Defender" },
+                { "name": "Davide Zappacosta", "age": 32, "position": "Defender" },
+                { "name": "Teun Koopmeiners", "age": 26, "position": "Midfielder" },
+                { "name": "Marten de Roon", "age": 33, "position": "Midfielder" },
+                { "name": "Mario Pašalić", "age": 29, "position": "Midfielder" },
+                { "name": "Éderson", "age": 24, "position": "Midfielder" },
+                { "name": "Luis Muriel", "age": 33, "position": "Forward" },
+                { "name": "Duván Zapata", "age": 33, "position": "Forward" },
+                { "name": "Ademola Lookman", "age": 26, "position": "Forward" },
+                { "name": "Rasmus Højlund", "age": 21, "position": "Forward" },
+                { "name": "Jeremie Boga", "age": 27, "position": "Forward" },
+                { "name": "Joakim Mæhle", "age": 27, "position": "Defender" }
+            ]
+        },
+        {
+            "team": "Bologna",
+            "players": [
+                { "name": "Łukasz Skorupski", "age": 33, "position": "Goalkeeper" },
+                { "name": "Federico Ravaglia", "age": 24, "position": "Goalkeeper" },
+                { "name": "Lorenzo De Silvestri", "age": 36, "position": "Defender" },
+                { "name": "Adama Soumaoro", "age": 31, "position": "Defender" },
+                { "name": "Stefan Posch", "age": 26, "position": "Defender" },
+                { "name": "Charalampos Lykogiannis", "age": 30, "position": "Defender" },
+                { "name": "Victor Kristiansen", "age": 21, "position": "Defender" },
+                { "name": "Nikola Moro", "age": 26, "position": "Midfielder" },
+                { "name": "Michel Aebischer", "age": 27, "position": "Midfielder" },
+                { "name": "Lewis Ferguson", "age": 24, "position": "Midfielder" },
+                { "name": "Nicolas Domínguez", "age": 25, "position": "Midfielder" },
+                { "name": "Joaquín Sosa", "age": 21, "position": "Defender" },
+                { "name": "Riccardo Orsolini", "age": 27, "position": "Forward" },
+                { "name": "Joshua Zirkzee", "age": 23, "position": "Forward" },
+                { "name": "Marko Arnautović", "age": 35, "position": "Forward" },
+                { "name": "Nicola Sansone", "age": 32, "position": "Forward" },
+                { "name": "Musa Barrow", "age": 25, "position": "Forward" },
+                { "name": "Giovanni Fabbian", "age": 21, "position": "Midfielder" }
+            ]
+        },
+        {
+            "team": "Brescia",
+            "players": [
+                { "name": "Luca Lezzerini", "age": 29, "position": "Goalkeeper" },
+                { "name": "Lorenzo Andrenacci", "age": 29, "position": "Goalkeeper" },
+                { "name": "Davide Adorni", "age": 31, "position": "Defender" },
+                { "name": "Massimiliano Mangraviti", "age": 25, "position": "Defender" },
+                { "name": "Andrea Papetti", "age": 21, "position": "Defender" },
+                { "name": "Giangiacomo Magnani", "age": 28, "position": "Defender" },
+                { "name": "Federico Pace", "age": 19, "position": "Defender" },
+                { "name": "Tom van de Looi", "age": 24, "position": "Midfielder" },
+                { "name": "Emanuele Ndoj", "age": 27, "position": "Midfielder" },
+                { "name": "Dimitri Bisoli", "age": 29, "position": "Midfielder" },
+                { "name": "Jakub Labojko", "age": 26, "position": "Midfielder" },
+                { "name": "Pablo Rodríguez", "age": 22, "position": "Forward" },
+                { "name": "Florian Ayé", "age": 27, "position": "Forward" },
+                { "name": "Ernesto Torregrossa", "age": 31, "position": "Forward" },
+                { "name": "Jhon Chancellor", "age": 31, "position": "Defender" },
+                { "name": "Giuseppe Mascherpa", "age": 21, "position": "Forward" },
+                { "name": "Fran Karačić", "age": 27, "position": "Defender" }
+            ]
+        },
+        {
+            "team": "Cagliari",
+            "players": [
+                { "name": "Boris Radunović", "age": 27, "position": "Goalkeeper" },
+                { "name": "Simone Scuffet", "age": 27, "position": "Goalkeeper" },
+                { "name": "Zito Luvumbo", "age": 21, "position": "Forward" },
+                { "name": "Gabriele Zappa", "age": 23, "position": "Defender" },
+                { "name": "Paolo Faragò", "age": 31, "position": "Defender" },
+                { "name": "Giorgio Altare", "age": 25, "position": "Defender" },
+                { "name": "Elio Capradossi", "age": 27, "position": "Defender" },
+                { "name": "Alessandro Deiola", "age": 28, "position": "Midfielder" },
+                { "name": "Antoine Makoumbou", "age": 25, "position": "Midfielder" },
+                { "name": "Gaetano Oristanio", "age": 21, "position": "Midfielder" },
+                { "name": "Nahitan Nández", "age": 28, "position": "Midfielder" },
+                { "name": "Jacopo Desogus", "age": 22, "position": "Forward" },
+                { "name": "Leonardo Pavoletti", "age": 35, "position": "Forward" },
+                { "name": "Gianluca Lapadula", "age": 33, "position": "Forward" },
+                { "name": "Eldor Shomurodov", "age": 28, "position": "Forward" },
+                { "name": "Alberto Dossena", "age": 24, "position": "Defender" },
+                { "name": "Valentín Carboni", "age": 18, "position": "Midfielder" }
+            ]
+        },
+        {
+            "team": "Empoli",
+            "players": [
+                { "name": "Elia Caprile", "age": 22, "position": "Goalkeeper" },
+                { "name": "Etrit Berisha", "age": 34, "position": "Goalkeeper" },
+                { "name": "Sebastiano Luperto", "age": 27, "position": "Defender" },
+                { "name": "Giuseppe Pezzella", "age": 26, "position": "Defender" },
+                { "name": "Tyronne Ebuehi", "age": 28, "position": "Defender" },
+                { "name": "Sebastian Walukiewicz", "age": 23, "position": "Defender" },
+                { "name": "Petar Stojanović", "age": 28, "position": "Defender" },
+                { "name": "Alberto Grassi", "age": 28, "position": "Midfielder" },
+                { "name": "Razvan Marin", "age": 28, "position": "Midfielder" },
+                { "name": "Jacopo Fazzini", "age": 20, "position": "Midfielder" },
+                { "name": "Matteo Cancellieri", "age": 22, "position": "Forward" },
+                { "name": "Niccolò Cambiaghi", "age": 23, "position": "Forward" },
+                { "name": "Roberto Piccoli", "age": 22, "position": "Forward" },
+                { "name": "Francesco Caputo", "age": 36, "position": "Forward" },
+                { "name": "Tommaso Baldanzi", "age": 20, "position": "Midfielder" },
+                { "name": "Emmanuel Ekong", "age": 20, "position": "Forward" }
+            ]
+        },
+        {
+            "team": "Fiorentina",
+            "players": [
+                { "name": "Pietro Terracciano", "age": 33, "position": "Goalkeeper" },
+                { "name": "Michele Cerofolini", "age": 24, "position": "Goalkeeper" },
+                { "name": "Cristiano Biraghi", "age": 31, "position": "Defender" },
+                { "name": "Dodo", "age": 25, "position": "Defender" },
+                { "name": "Luca Ranieri", "age": 24, "position": "Defender" },
+                { "name": "Nikola Milenkovic", "age": 26, "position": "Defender" },
+                { "name": "Lucas Martinez Quarta", "age": 27, "position": "Defender" },
+                { "name": "Rolando Mandragora", "age": 26, "position": "Midfielder" },
+                { "name": "Alfred Duncan", "age": 30, "position": "Midfielder" },
+                { "name": "Sofyan Amrabat", "age": 27, "position": "Midfielder" },
+                { "name": "Giacomo Bonaventura", "age": 34, "position": "Midfielder" },
+                { "name": "Joseph Alfred Duncan", "age": 30, "position": "Midfielder" },
+                { "name": "Jonathan Ikone", "age": 26, "position": "Forward" },
+                { "name": "Riccardo Sottil", "age": 24, "position": "Forward" },
+                { "name": "Christian Kouame", "age": 26, "position": "Forward" },
+                { "name": "Arthur Cabral", "age": 25, "position": "Forward" },
+                { "name": "Luka Jovic", "age": 26, "position": "Forward" },
+                { "name": "Nicolas Gonzalez", "age": 26, "position": "Forward" }
+            ]
+        },
+        {
+            "team": "Inter Milan",
+            "players": [
+                { "name": "Samir Handanovic", "age": 40, "position": "Goalkeeper" },
+                { "name": "Andre Onana", "age": 28, "position": "Goalkeeper" },
+                { "name": "Milan Skriniar", "age": 29, "position": "Defender" },
+                { "name": "Alessandro Bastoni", "age": 25, "position": "Defender" },
+                { "name": "Stefan de Vrij", "age": 32, "position": "Defender" },
+                { "name": "Denzel Dumfries", "age": 27, "position": "Defender" },
+                { "name": "Federico Dimarco", "age": 26, "position": "Defender" },
+                { "name": "Nicolo Barella", "age": 27, "position": "Midfielder" },
+                { "name": "Marcelo Brozovic", "age": 31, "position": "Midfielder" },
+                { "name": "Hakan Calhanoglu", "age": 30, "position": "Midfielder" },
+                { "name": "Henrikh Mkhitaryan", "age": 35, "position": "Midfielder" },
+                { "name": "Kristjan Asllani", "age": 22, "position": "Midfielder" },
+                { "name": "Edin Dzeko", "age": 38, "position": "Forward" },
+                { "name": "Lautaro Martinez", "age": 26, "position": "Forward" },
+                { "name": "Romelu Lukaku", "age": 31, "position": "Forward" },
+                { "name": "Joaquin Correa", "age": 30, "position": "Forward" },
+                { "name": "David Darmian", "age": 34, "position": "Defender" }
+            ]
+        }
+        
+                
+        
+        
+        
+        
+        
+        
+    ]
+}

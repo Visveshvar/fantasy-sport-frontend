@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Angers" },
+    { "id": 2, "name": "Auxerre" },
+    { "id": 3, "name": "Ajaccio" },
+    { "id": 4, "name": "Lille" },
+    { "id": 5, "name": "Lyon" },
+    { "id": 6, "name": "Marseille" },
+    { "id": 7, "name": "Monaco" },
+    { "id": 8, "name": "Montpellier" },
+    { "id": 9, "name": "Nantes" },
+    { "id": 10, "name": "Nice" },
+    { "id": 11, "name": "Paris Saint-Germain" },
+    { "id": 12, "name": "Reims" },
+    { "id": 13, "name": "Rennes" },
+    { "id": 14, "name": "Strasbourg" },
+    { "id": 15, "name": "Toulouse" },
+    { "id": 16, "name": "Brest" },
+    { "id": 17, "name": "Clermont" },
+    { "id": 18, "name": "Lorient" },
+    { "id": 19, "name": "Rodez" },
+    { "id": 20, "name": "Nîmes" }
+]

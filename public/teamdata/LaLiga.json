@@ -1,0 +1,21 @@
+[
+    { "id": 1, "name": "Deportivo Alavés" },
+    { "id": 2, "name": "Almería" },
+    { "id": 3, "name": "Athletic Bilbao" },
+    { "id": 4, "name": "Atlético Madrid" },
+    { "id": 5, "name": "FC Barcelona" },
+    { "id": 6, "name": "Real Betis" },
+    { "id": 7, "name": "Cádiz" },
+    { "id": 8, "name": "Celta Vigo" },
+    { "id": 9, "name": "Deportivo La Coruña" },
+    { "id": 10, "name": "Elche" },
+    { "id": 11, "name": "Espanyol" },
+    { "id": 12, "name": "Getafe" },
+    { "id": 13, "name": "Girona" },
+    { "id": 14, "name": "Granada" },
+    { "id": 15, "name": "Levante" },
+    { "id": 16, "name": "Real Madrid" },
+    { "id": 17, "name": "Mallorca" },
+    { "id": 18, "name": "Osasuna" },
+    { "id": 20, "name": "Real Sociedad" }
+]

@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "AC Milan" },
+    { "id": 2, "name": "AS Roma" },
+    { "id": 3, "name": "Atalanta" },
+    { "id": 4, "name": "Bologna" },
+    { "id": 5, "name": "Brescia" },
+    { "id": 6, "name": "Cagliari" },
+    { "id": 7, "name": "Empoli" },
+    { "id": 8, "name": "Fiorentina" },
+    { "id": 9, "name": "Inter Milan" },
+    { "id": 10, "name": "Juventus" },
+    { "id": 11, "name": "Lazio" },
+    { "id": 12, "name": "Lecce" },
+    { "id": 13, "name": "Napoli" },
+    { "id": 14, "name": "Roma" },
+    { "id": 15, "name": "Sampdoria" },
+    { "id": 16, "name": "Sassuolo" },
+    { "id": 17, "name": "Torino" },
+    { "id": 18, "name": "Udinese" },
+    { "id": 19, "name": "Verona" },
+    { "id": 20, "name": "Venezia" }
+]

@@ -1,0 +1,363 @@
+{
+    "teams":[
+        {
+            "team": "Deportivo Alavés",
+            "players": [
+              { "name": "Fernando Pacheco", "age": 31, "position": "Goalkeeper" },
+              { "name": "Rubén Duarte", "age": 28, "position": "Defender" },
+              { "name": "Víctor Laguardia", "age": 34, "position": "Defender" },
+              { "name": "Mamadou Loum", "age": 25, "position": "Midfielder" },
+              { "name": "Luis Rioja", "age": 28, "position": "Winger" },
+              { "name": "José Lu", "age": 32, "position": "Forward" },
+              { "name": "Álex Fernández", "age": 28, "position": "Midfielder" },
+              { "name": "Jason", "age": 29, "position": "Midfielder" },
+              { "name": "Asier Villalibre", "age": 26, "position": "Forward" },
+              { "name": "Jaime Seoane", "age": 24, "position": "Midfielder" },
+              { "name": "Pablo Hervías", "age": 30, "position": "Winger" },
+              { "name": "Borja Sainz", "age": 21, "position": "Forward" },
+              { "name": "Nico Melamed", "age": 22, "position": "Forward" },
+              { "name": "Sergio Asenjo", "age": 34, "position": "Goalkeeper" },
+              { "name": "Rafa Mújica", "age": 25, "position": "Forward" },
+              { "name": "Rubén Martínez", "age": 22, "position": "Defender" },
+              { "name": "Mikel Villanueva", "age": 30, "position": "Defender" },
+              { "name": "Lamine Yamal", "age": 17, "position": "Winger" },
+              { "name": "Javi López", "age": 33, "position": "Defender" }
+            ]
+          },{
+            "team": "Almería",
+            "players": [
+              { "name": "Fernando Martínez", "age": 31, "position": "Goalkeeper" },
+              { "name": "Sergi Gómez", "age": 31, "position": "Defender" },
+              { "name": "Sergio Akieme", "age": 26, "position": "Defender" },
+              { "name": "Emmanuel Emenike", "age": 30, "position": "Forward" },
+              { "name": "Lamine Yamal", "age": 17, "position": "Winger" },
+              { "name": "Mojica", "age": 30, "position": "Defender" },
+              { "name": "Samú Costa", "age": 23, "position": "Midfielder" },
+              { "name": "Sadiq Umar", "age": 27, "position": "Forward" },
+              { "name": "Rodri Elías", "age": 23, "position": "Midfielder" },
+              { "name": "Alejandro Pozo", "age": 25, "position": "Winger" },
+              { "name": "Lucas Robertone", "age": 27, "position": "Midfielder" },
+              { "name": "Juanjo Nieto", "age": 31, "position": "Defender" },
+              { "name": "Chumi", "age": 26, "position": "Defender" },
+              { "name": "Javier Ibáñez", "age": 22, "position": "Defender" },
+              { "name": "Álvaro Fernández", "age": 30, "position": "Goalkeeper" }
+            ]
+          },
+          {
+            "team": "Athletic Bilbao",
+            "players": [
+              { "name": "Unai Simón", "age": 26, "position": "Goalkeeper" },
+              { "name": "Iñigo Martínez", "age": 32, "position": "Defender" },
+              { "name": "Yeray Álvarez", "age": 27, "position": "Defender" },
+              { "name": "Oier Zarraga", "age": 25, "position": "Midfielder" },
+              { "name": "Iker Muniain", "age": 31, "position": "Midfielder" },
+              { "name": "Raúl García", "age": 37, "position": "Midfielder" },
+              { "name": "Álex Berenguer", "age": 28, "position": "Winger" },
+              { "name": "Nico Williams", "age": 22, "position": "Winger" },
+              { "name": "Inaki Williams", "age": 30, "position": "Forward" },
+              { "name": "Daniel Vivian", "age": 25, "position": "Defender" },
+              { "name": "Julen Agirrezabala", "age": 24, "position": "Goalkeeper" },
+              { "name": "Ander Herrera", "age": 34, "position": "Midfielder" },
+              { "name": "Mikel Balenziaga", "age": 36, "position": "Defender" },
+              { "name": "Oscar de Marcos", "age": 35, "position": "Defender" },
+              { "name": "Unai Vencedor", "age": 23, "position": "Midfielder" }
+            ]
+          },
+          {
+            "team": "Atlético Madrid",
+            "players": [
+              { "name": "Jan Oblak", "age": 31, "position": "Goalkeeper" },
+              { "name": "Kieran Trippier", "age": 33, "position": "Defender" },
+              { "name": "José Giménez", "age": 29, "position": "Defender" },
+              { "name": "Stefan Savic", "age": 33, "position": "Defender" },
+              { "name": "Mario Hermoso", "age": 28, "position": "Defender" },
+              { "name": "Yannick Carrasco", "age": 31, "position": "Winger" },
+              { "name": "Koke", "age": 32, "position": "Midfielder" },
+              { "name": "Saúl Ñíguez", "age": 29, "position": "Midfielder" },
+              { "name": "Rodrigo De Paul", "age": 30, "position": "Midfielder" },
+              { "name": "Antoine Griezmann", "age": 33, "position": "Forward" },
+              { "name": "Álvaro Morata", "age": 31, "position": "Forward" },
+              { "name": "João Félix", "age": 24, "position": "Forward" },
+              { "name": "Matheus Cunha", "age": 25, "position": "Forward" },
+              { "name": "Ángel Correa", "age": 29, "position": "Forward" },
+              { "name": "Ivo Grbić", "age": 27, "position": "Goalkeeper" },
+              { "name": "Reinildo Mandava", "age": 31, "position": "Defender" }
+            ]
+          },
+          {
+            "team": "FC Barcelona",
+            "players": [
+              { "name": "Marc-André ter Stegen", "age": 32, "position": "Goalkeeper" },
+              { "name": "Jules Koundé", "age": 25, "position": "Defender" },
+              { "name": "Ronald Araújo", "age": 25, "position": "Defender" },
+              { "name": "Andreas Christensen", "age": 28, "position": "Defender" },
+              { "name": "Alejandro Balde", "age": 21, "position": "Defender" },
+              { "name": "Sergio Busquets", "age": 35, "position": "Midfielder" },
+              { "name": "Frenkie de Jong", "age": 27, "position": "Midfielder" },
+              { "name": "Gavi", "age": 19, "position": "Midfielder" },
+              { "name": "Pedri", "age": 21, "position": "Midfielder" },
+              { "name": "Ousmane Dembélé", "age": 27, "position": "Winger" },
+              { "name": "Ansu Fati", "age": 21, "position": "Forward" },
+              { "name": "Robert Lewandowski", "age": 36, "position": "Forward" },
+              { "name": "Raphinha", "age": 27, "position": "Winger" },
+              { "name": "Ferran Torres", "age": 24, "position": "Forward" },
+              { "name": "Inaki Pena", "age": 25, "position": "Goalkeeper" },
+              { "name": "Samuel Umtiti", "age": 30, "position": "Defender" }
+            ]
+          },
+          {
+            "team": "Real Betis",
+            "players": [
+              { "name": "Claudio Bravo", "age": 41, "position": "Goalkeeper" },
+              { "name": "Rui Silva", "age": 29, "position": "Goalkeeper" },
+              { "name": "Marc Bartra", "age": 33, "position": "Defender" },
+              { "name": "Aissa Mandi", "age": 32, "position": "Defender" },
+              { "name": "Edgar González", "age": 24, "position": "Defender" },
+              { "name": "Álex Moreno", "age": 31, "position": "Defender" },
+              { "name": "Joaquín Sánchez", "age": 43, "position": "Midfielder" },
+              { "name": "Nabil Fekir", "age": 31, "position": "Midfielder" },
+              { "name": "Sergio Canales", "age": 33, "position": "Midfielder" },
+              { "name": "William Carvalho", "age": 32, "position": "Midfielder" },
+              { "name": "Rodri", "age": 28, "position": "Midfielder" },
+              { "name": "Loren Morón", "age": 30, "position": "Forward" },
+              { "name": "Borja Iglesias", "age": 31, "position": "Forward" },
+              { "name": "Luiz Henrique", "age": 23, "position": "Forward" },
+              { "name": "Juanmi", "age": 31, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Cádiz",
+            "players": [
+              { "name": "David Gil", "age": 30, "position": "Goalkeeper" },
+              { "name": "Cádiz", "age": 32, "position": "Goalkeeper" },
+              { "name": "Luis Hernández", "age": 34, "position": "Defender" },
+              { "name": "Fali", "age": 30, "position": "Defender" },
+              { "name": "Víctor Chust", "age": 23, "position": "Defender" },
+              { "name": "Alfonso Espino", "age": 32, "position": "Defender" },
+              { "name": "Iván Alejo", "age": 30, "position": "Midfielder" },
+              { "name": "Álex Fernández", "age": 32, "position": "Midfielder" },
+              { "name": "Jairo Izquierdo", "age": 28, "position": "Midfielder" },
+              { "name": "Rubén Alcaraz", "age": 32, "position": "Midfielder" },
+              { "name": "Pablo Fernández", "age": 24, "position": "Midfielder" },
+              { "name": "Sergio González", "age": 35, "position": "Forward" },
+              { "name": "Roger Martí", "age": 31, "position": "Forward" },
+              { "name": "Chris Ramos", "age": 26, "position": "Forward" },
+              { "name": "Salvi Sánchez", "age": 32, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Celta Vigo",
+            "players": [
+              { "name": "Agustín Marchesín", "age": 35, "position": "Goalkeeper" },
+              { "name": "Iván Villar", "age": 26, "position": "Goalkeeper" },
+              { "name": "Joseph Aidoo", "age": 28, "position": "Defender" },
+              { "name": "Carlos Domínguez", "age": 26, "position": "Defender" },
+              { "name": "Jørgen Strand Larsen", "age": 22, "position": "Defender" },
+              { "name": "Hugo Mallo", "age": 32, "position": "Defender" },
+              { "name": "Óscar Rodríguez", "age": 26, "position": "Midfielder" },
+              { "name": "Denis Suárez", "age": 30, "position": "Midfielder" },
+              { "name": "Fran Beltrán", "age": 25, "position": "Midfielder" },
+              { "name": "Néstor Araujo", "age": 33, "position": "Midfielder" },
+              { "name": "Brais Méndez", "age": 26, "position": "Midfielder" },
+              { "name": "Iago Aspas", "age": 37, "position": "Forward" },
+              { "name": "Santi Mina", "age": 29, "position": "Forward" },
+              { "name": "Jorgen Strand Larsen", "age": 22, "position": "Forward" },
+              { "name": "Gérard Moreno", "age": 31, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Deportivo La Coruña",
+            "players": [
+              { "name": "Dani Giménez", "age": 40, "position": "Goalkeeper" },
+              { "name": "Álex Bergantiños", "age": 38, "position": "Midfielder" },
+              { "name": "David Simón", "age": 35, "position": "Defender" },
+              { "name": "Raúl García", "age": 31, "position": "Defender" },
+              { "name": "Víctor Mollejo", "age": 23, "position": "Forward" },
+              { "name": "Valentín Vada", "age": 26, "position": "Midfielder" },
+              { "name": "Miku", "age": 39, "position": "Forward" },
+              { "name": "Manuel Pablo", "age": 42, "position": "Defender" },
+              { "name": "Javi Rodríguez", "age": 29, "position": "Midfielder" },
+              { "name": "Lucho García", "age": 28, "position": "Defender" },
+              { "name": "Borja Galán", "age": 30, "position": "Midfielder" },
+              { "name": "Luis Ruiz", "age": 32, "position": "Defender" },
+              { "name": "Nolito", "age": 37, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Elche",
+            "players": [
+              { "name": "Édgar Badía", "age": 30, "position": "Goalkeeper" },
+              { "name": "Enzo Roco", "age": 31, "position": "Defender" },
+              { "name": "José Ángel Esmorís Tasende", "age": 32, "position": "Defender" },
+              { "name": "Carlos Clerc", "age": 30, "position": "Defender" },
+              { "name": "Gonzalo Verdú", "age": 34, "position": "Defender" },
+              { "name": "Lucas Boyé", "age": 27, "position": "Forward" },
+              { "name": "Johan Mojica", "age": 31, "position": "Defender" },
+              { "name": "Javi López", "age": 29, "position": "Midfielder" },
+              { "name": "Raúl Guti", "age": 27, "position": "Midfielder" },
+              { "name": "Tete Morente", "age": 26, "position": "Midfielder" },
+              { "name": "Lucas Pérez", "age": 35, "position": "Forward" },
+              { "name": "Kike Pérez", "age": 24, "position": "Forward" },
+              { "name": "Fidel Chaves", "age": 32, "position": "Midfielder" }
+            ]
+          },
+          {
+            "team": "Espanyol",
+            "players": [
+              { "name": "Fernando Pacheco", "age": 31, "position": "Goalkeeper" },
+              { "name": "Leandro Cabrera", "age": 32, "position": "Defender" },
+              { "name": "Víctor Gómez", "age": 26, "position": "Defender" },
+              { "name": "Óscar Gil", "age": 27, "position": "Defender" },
+              { "name": "Adrián Embarba", "age": 31, "position": "Midfielder" },
+              { "name": "Sergi Darder", "age": 30, "position": "Midfielder" },
+              { "name": "Pol Lozano", "age": 25, "position": "Midfielder" },
+              { "name": "Javi Puado", "age": 25, "position": "Forward" },
+              { "name": "Joselu", "age": 34, "position": "Forward" },
+              { "name": "Raúl de Tomás", "age": 29, "position": "Forward" },
+              { "name": "Nico Melamed", "age": 22, "position": "Midfielder" },
+              { "name": "Javier Puado", "age": 25, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Getafe",
+            "players": [
+              { "name": "David Soria", "age": 30, "position": "Goalkeeper" },
+              { "name": "Damián Suárez", "age": 35, "position": "Defender" },
+              { "name": "Erick Cabaco", "age": 28, "position": "Defender" },
+              { "name": "Johan Mojica", "age": 31, "position": "Defender" },
+              { "name": "Nemanja Maksimović", "age": 28, "position": "Midfielder" },
+              { "name": "Gaku Shibasaki", "age": 32, "position": "Midfielder" },
+              { "name": "Enes Ünal", "age": 26, "position": "Forward" },
+              { "name": "Borja Mayoral", "age": 26, "position": "Forward" },
+              { "name": "Marc Cucurella", "age": 26, "position": "Defender" },
+              { "name": "Óscar Rodríguez", "age": 25, "position": "Midfielder" },
+              { "name": "Jaime Mata", "age": 36, "position": "Forward" },
+              { "name": "Luis Milla", "age": 29, "position": "Midfielder" }
+            ]
+          },
+          {
+            "team": "Girona",
+            "players": [
+              { "name": "Paulo Gazzaniga", "age": 32, "position": "Goalkeeper" },
+              { "name": "Miguel Gutiérrez", "age": 22, "position": "Defender" },
+              { "name": "Santiago Bueno", "age": 25, "position": "Defender" },
+              { "name": "Juanpe", "age": 32, "position": "Defender" },
+              { "name": "David López", "age": 34, "position": "Defender" },
+              { "name": "Yangel Herrera", "age": 26, "position": "Midfielder" },
+              { "name": "Aleix García", "age": 26, "position": "Midfielder" },
+              { "name": "Oriol Romeu", "age": 32, "position": "Midfielder" },
+              { "name": "Taty Castellanos", "age": 25, "position": "Forward" },
+              { "name": "Valentin Castellanos", "age": 26, "position": "Forward" },
+              { "name": "Robert Lewandowski", "age": 35, "position": "Forward" },
+              { "name": "Arnau Martínez", "age": 22, "position": "Defender" }
+            ]
+          },
+          {
+            "team": "Granada",
+            "players": [
+              { "name": "Luis Maximiano", "age": 26, "position": "Goalkeeper" },
+              { "name": "Víctor Díaz", "age": 35, "position": "Defender" },
+              { "name": "Ignasi Miquel", "age": 31, "position": "Defender" },
+              { "name": "Jorge Sánchez", "age": 26, "position": "Defender" },
+              { "name": "Sergio Peña", "age": 27, "position": "Midfielder" },
+              { "name": "Germán Sánchez", "age": 34, "position": "Defender" },
+              { "name": "Ruben Rochina", "age": 34, "position": "Midfielder" },
+              { "name": "Miquel Gutiérrez", "age": 22, "position": "Defender" },
+              { "name": "Aitor Karanka", "age": 29, "position": "Forward" },
+              { "name": "Luis Suárez", "age": 25, "position": "Forward" },
+              { "name": "Antonio Puertas", "age": 30, "position": "Forward" },
+              { "name": "Alejandro Baena", "age": 21, "position": "Midfielder" }
+            ]
+          },
+          {
+            "team": "Levante",
+            "players": [
+              { "name": "Aitor Fernández", "age": 33, "position": "Goalkeeper" },
+              { "name": "Antonio Luna", "age": 34, "position": "Defender" },
+              { "name": "Róber Pier", "age": 28, "position": "Defender" },
+              { "name": "José Campaña", "age": 30, "position": "Midfielder" },
+              { "name": "Enis Bardhi", "age": 27, "position": "Midfielder" },
+              { "name": "Rubén Vezo", "age": 28, "position": "Defender" },
+              { "name": "Borja Mayoral", "age": 26, "position": "Forward" },
+              { "name": "Jorge Miramón", "age": 29, "position": "Defender" },
+              { "name": "Ramon Martínez", "age": 22, "position": "Forward" },
+              { "name": "Sergio Postigo", "age": 31, "position": "Defender" },
+              { "name": "Alejandro Cantero", "age": 20, "position": "Midfielder" },
+              { "name": "Martín Cáceres", "age": 37, "position": "Defender" }
+            ]
+          },
+          {
+            "team": "Real Madrid",
+            "players": [
+              { "name": "Thibaut Courtois", "age": 32, "position": "Goalkeeper" },
+              { "name": "Dani Carvajal", "age": 32, "position": "Defender" },
+              { "name": "Éder Militão", "age": 26, "position": "Defender" },
+              { "name": "David Alaba", "age": 32, "position": "Defender" },
+              { "name": "Ferland Mendy", "age": 29, "position": "Defender" },
+              { "name": "Luka Modrić", "age": 38, "position": "Midfielder" },
+              { "name": "Toni Kroos", "age": 34, "position": "Midfielder" },
+              { "name": "Federico Valverde", "age": 26, "position": "Midfielder" },
+              { "name": "Vinícius Júnior", "age": 24, "position": "Forward" },
+              { "name": "Karim Benzema", "age": 36, "position": "Forward" },
+              { "name": "Rodrygo", "age": 23, "position": "Forward" },
+              { "name": "Jude Bellingham", "age": 21, "position": "Midfielder" }
+            ]
+          },
+          {
+            "team": "Mallorca",
+            "players": [
+              { "name": "Antonio Raíllo", "age": 31, "position": "Defender" },
+              { "name": "Álex Febas", "age": 26, "position": "Midfielder" },
+              { "name": "Martin Valjent", "age": 28, "position": "Defender" },
+              { "name": "Luka Romero", "age": 19, "position": "Forward" },
+              { "name": "Maffeo", "age": 27, "position": "Defender" },
+              { "name": "Dani Rodríguez", "age": 31, "position": "Midfielder" },
+              { "name": "Jaume Costa", "age": 35, "position": "Defender" },
+              { "name": "Baba Iddrisu", "age": 26, "position": "Midfielder" },
+              { "name": "Abdon Prats", "age": 29, "position": "Forward" },
+              { "name": "Manuel Reina", "age": 41, "position": "Goalkeeper" }
+            ]
+          },
+          {
+            "team": "Osasuna",
+            "players": [
+              { "name": "Sergio Herrera", "age": 31, "position": "Goalkeeper" },
+              { "name": "David García", "age": 30, "position": "Defender" },
+              { "name": "Nacho Vidal", "age": 28, "position": "Defender" },
+              { "name": "Unai García", "age": 28, "position": "Defender" },
+              { "name": "Juan Cruz", "age": 30, "position": "Defender" },
+              { "name": "Oier Sanjurjo", "age": 35, "position": "Midfielder" },
+              { "name": "Darko Brasanac", "age": 30, "position": "Midfielder" },
+              { "name": "Jon Moncayola", "age": 25, "position": "Midfielder" },
+              { "name": "Aimar Oroz", "age": 21, "position": "Midfielder" },
+              { "name": "Chimy Ávila", "age": 29, "position": "Forward" },
+              { "name": "Ezequiel Ávila", "age": 30, "position": "Forward" },
+              { "name": "Kike García", "age": 35, "position": "Forward" }
+            ]
+          },
+          {
+            "team": "Real Sociedad",
+            "players": [
+              { "name": "Álex Remiro", "age": 29, "position": "Goalkeeper" },
+              { "name": "Aritz Elustondo", "age": 29, "position": "Defender" },
+              { "name": "Ander Barrenetxea", "age": 22, "position": "Defender" },
+              { "name": "Igor Zubeldia", "age": 26, "position": "Defender" },
+              { "name": "José María Giménez", "age": 28, "position": "Defender" },
+              { "name": "Martin Zubimendi", "age": 24, "position": "Midfielder" },
+              { "name": "David Silva", "age": 38, "position": "Midfielder" },
+              { "name": "Mikel Merino", "age": 27, "position": "Midfielder" },
+              { "name": "Modibo Sagnan", "age": 24, "position": "Midfielder" },
+              { "name": "Alexander Sørloth", "age": 28, "position": "Forward" },
+              { "name": "Carlos Fernández", "age": 26, "position": "Forward" },
+              { "name": "Adnan Januzaj", "age": 29, "position": "Forward" }
+            ]
+          }
+          
+          
+          
+          
+          
+          
+                    
+    ]
+}

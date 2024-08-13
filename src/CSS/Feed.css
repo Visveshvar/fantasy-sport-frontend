@@ -1,0 +1,55 @@
+
+.feed-card{  
+    width: 50%;
+    background-color: black;
+    border-radius:5%;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.5s ease,opacity 0.5s ease;
+    margin-left: 20%;
+    height: 500px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    width: 100%;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+}
+.card h2{
+    margin-left: 3%;
+}
+.eachbox{
+    border-top:1px solid white ;
+    margin-top: 5%;
+}
+.navbar{
+    background-color: black;
+    width: 100vw;
+    
+    top: 0;
+    z-index: 1000;
+}
+.selectioncol{
+    margin-top: 0%;
+}
+.selectionrow{
+    margin-top: 10%;
+}
+.list-item{
+    background-color: goldenrod;
+    color:black;
+    margin-top: 30%;    
+}
+.list-item:hover{
+    background-color: black;
+    color: white;
+}
+.list-group{
+    position: fixed;
+    margin-left: 10%;
+}
