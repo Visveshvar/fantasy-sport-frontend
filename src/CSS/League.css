@@ -1,17 +1,18 @@
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5%;
-    padding: 16px;
-    margin-top: 10%;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin-top: 5%;
+    background-color: black;
+    padding: 5%;
 }
 .grid-container a{
     text-decoration: none;
     color: black;
 }
 .grid-item {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 10%;
     overflow: hidden;
     display: flex;
@@ -22,10 +23,62 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white;
 }
 .grid-item:hover {
     transform: scale(1.05); /* Slightly enlarge the item */
+    background-color: gold;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+.playerbox {
+    justify-content: center; /* Center-align the table horizontally */
+    padding: 5%;
+    margin-top: 3%;
+    background-color: black;
+    min-height: 100vh;
+}
+.playerbox h1{
+    color: gold;
+}
+.playerbox h3{
+    color: white;
+    margin-top: 5%;
+}
+.playerbox table {
+    width: 80%; /* Adjust width as needed */
+    border-collapse: collapse;
+    margin: auto; /* Center the table within its container */
+}
+
+.playerbox th, .playerbox td {
+    border: 2px solid #ddd; /* Increase border thickness */
+    padding: 12px; /* Increase padding */
+    text-align: center;
+    font-size: 18px; /* Increase font size */
+    
+}
+
+.playerbox th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold; /* Make header text bold */
+}
+
+.playerbox tr:nth-child(odd) {
+    background-color: #6c6969; /* Light gray for even rows */
+    color:white
+}
+
+.playerbox tr:nth-child(even) {
+    background-color: #fff; /* White for odd rows */
+    color:black
+}
+
+.material-symbols-outlined {
+    cursor: pointer; /* Change cursor to pointer for clickable icon */
+    font-size: 30px; /* Increase icon size */
+    vertical-align: middle; /* Align icon with text */
+    transform: translateY(2px); /* Fine-tune vertical alignment */
 }
 
 .PLimg {
@@ -35,19 +88,25 @@
     object-fit: contain; /* Fit image inside the container */
     
 }
-.teambox{
+.teambox {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
     gap: 5%;
     padding: 5%;
-    margin-top: 10%;
+    margin-top: 3%;
+    background-color: black; /* Diagonal gradient with four defined stops */
+    min-height: 100vh; /* Ensures container covers the full viewport height */
+    box-sizing: border-box; /* Includes padding and border in the element’s total width and height */
 }
 .teambox .card{
-    width: 400px;
-    height: 200px
+    width: 300px;
+    height: 100px
 }
 .teambox .card .card-text{
     margin-top: 20%;
+}
+.teambox .card:hover{
+    background:linear-gradient(gold,goldenrod);
 }
 .teambox a{
     text-decoration: none;

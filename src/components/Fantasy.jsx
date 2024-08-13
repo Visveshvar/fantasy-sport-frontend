@@ -44,17 +44,33 @@ const Fantasy = () => {
 
     return (
         <div>
-            <Navbar />
-            <div style={{ marginTop: "10%" }}>
-                <h2>Your Fantasy Team</h2>
-                {players.map((player) => (
-                    <div key={player._id} className="fantasy-element">
-                        {player.name} - {player.position}
-                        <button onClick={() => handleRemoveElement(player._id)}>Delete</button>
-                    </div>
-                ))}
-            </div>
+        <Navbar />
+        <div className="playerbox">
+            <center><h1>Your Fantasy Team</h1></center>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {players.map((player) => (
+                        <tr key={player._id}>
+                            <td>{player.name}</td>
+                            <td>{player.position}</td>
+                            <td>
+                                <span className="material-symbols-outlined" onClick={() => handleRemoveElement(player._id)}>
+                                    remove_circle
+                                </span>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
         </div>
+    </div>
     );
 };
 

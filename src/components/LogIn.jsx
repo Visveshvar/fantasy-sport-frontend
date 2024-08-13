@@ -28,7 +28,7 @@ var LogIn=()=>{
     return(
         <div className="container">
         <div className="box">
-        <center><h3>Log In</h3><br></br>
+        <center><h3 style={{color:"black"}}>Log In</h3><br></br>
            <form onSubmit={userlog}>
             <div className="form-floating">
                     <input className="form-control" type="text" placeholder="Username/Email" required onChange={(e)=>setEmailUser(e.target.value)}></input>
@@ -39,7 +39,7 @@ var LogIn=()=>{
                     <label className="form-label">Password</label>
                 </div><br></br>
                 <button className="btn btn-primary" style={{width:'50%'}}>Log In</button><br></br>
-                <span>Don't have an account? <a className="SignUpanchor" href="/signup">Sign Up</a></span>
+                <span style={{color:"black"}}>Don't have an account? <a className="SignUpanchor" href="/signup">Sign Up</a></span>
             </form></center>
             
         </div>

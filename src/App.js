@@ -17,6 +17,7 @@ import Ligue1 from './components/Ligue1.jsx'
 import Fantasy from './components/Fantasy.jsx';
 import { FantasyProvider } from './components/FantasyContext'; 
 import UserTeam from './components/UserTeams.jsx';
+import Profile from './components/Profile.jsx';
 function App() {
   const {isAuthenticated}=useAuth()
   return (
@@ -28,7 +29,6 @@ function App() {
           <Route path='/login' element={<LogIn/>}></Route>
           <Route path='/' element={<User/>}></Route>
           <Route path='/home' element={isAuthenticated ? <Homecontent /> : <Navigate to='/login' />} />
-          <Route path='/feed' element={isAuthenticated ? <Feedcontent/> : <Navigate to='/login' />} />
           {/* <Route path='/home' element={<Homecontent/>}></Route>
           <Route path='feed' element={<Feedcontent/>}></Route> */}
           <Route path='/league' element={isAuthenticated?<League/>:<Navigate to='/login' />}></Route>
@@ -40,6 +40,7 @@ function App() {
           <Route path='/ligue1' element={isAuthenticated?<Ligue1/>:<Navigate to='/login' />}></Route>
           <Route path='/fantasy' element={isAuthenticated?<Fantasy/>:<Navigate to='/login' />}></Route>
           <Route path='/userteam' element={isAuthenticated?<UserTeam/>:<Navigate to='/login' />}></Route>
+          <Route path='/profile' element={isAuthenticated?<Profile/>:<Navigate to='/login'/>}></Route>
         </Routes>
       </BrowserRouter>
       </FantasyProvider>

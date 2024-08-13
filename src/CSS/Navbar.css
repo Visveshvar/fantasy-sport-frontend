@@ -11,7 +11,12 @@
     color: #ffffff; 
     text-decoration: none; 
 }
-
+.navp{
+    color: white;
+}
+.nav-link:hover{
+    color: gold;
+}
 .material-symbols-outlined {
     font-size: 1.5rem;
     margin-right: 0.5rem; 

@@ -28,36 +28,53 @@ const PlayerDetail = () => {
     }, [leagueName, teamName]);
 
     const handleAddPlayer = (player) => {
-        
-            axios.post('https://fantasy-sport-backend.onrender.com/addplayer', {
-                username: username,
-                player: player
-            }).then(response => {
-                if (response.data.message === "Player added successfully") {
-                    addElement(player); 
-                } else {
-                    alert(response.data.message);
-                }
-            }).catch(err => {
-                console.error("Error adding player:", err);
-                alert("An error occurred while adding the player");
-            });
-        
+        axios.post('https://fantasy-sport-backend.onrender.com/addplayer', {
+            username: username,
+            player: player
+        }).then(response => {
+            if (response.data.message === "Player added successfully") {
+                addElement(player);
+            } else {
+                alert(response.data.message);
+            }
+        }).catch(err => {
+            console.error("Error adding player:", err);
+            alert("An error occurred while adding the player");
+        });
     };
 
     return (
         <div>
             <Navbar />
-            <div className="teambox">
-                <h2>{teamName} Players</h2>
-                <ul>
-                    {players.map((player, index) => (
-                        <li key={index}>
-                            {player.name} - {player.age} - {player.position}
-                            <button onClick={() => handleAddPlayer(player)}>Add</button>
-                        </li>
-                    ))}
-                </ul>
+            <div className="playerbox">
+                <center><h1>{teamName} Players</h1></center>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Position</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {players.map((player, index) => (
+                            <tr key={index}>
+                                <td>{player.name}</td>
+                                <td>{player.age}</td>
+                                <td>{player.position}</td>
+                                <td>
+                                    <span 
+                                        className="material-symbols-outlined" 
+                                        onClick={() => handleAddPlayer(player)}
+                                    >
+                                        add_circle
+                                    </span>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
         </div>
     );

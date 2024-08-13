@@ -23,18 +23,30 @@ const UserTeam = () => {
     return (
         <div>
             <Navbar />
-            <div style={{ marginTop: "10%" }}>
-                <h2>All Fantasy Teams</h2>
+            <div className="playerbox">
+                <center><h1>All Fantasy Teams</h1></center>
                 {teams.map((team, index) => (
                     <div key={index} className="user-team">
-                        <h3>User: {team.username}</h3>
-                        <ul>
-                            {team.players.map((player, idx) => (
-                                <li key={idx}>
-                                    {player.name} - {player.position}
-                                </li>
-                            ))}
-                        </ul>
+                        <center><h3>User: {team.username}</h3></center>
+                        <table>
+                        
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Player Name</th>
+                                    <th>Position</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {team.players.map((player, idx) => (
+                                    <tr key={idx}>
+                                        <td>{idx + 1}</td>
+                                        <td>{player.name}</td>
+                                        <td>{player.position}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                     </div>
                 ))}
             </div>

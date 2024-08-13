@@ -2,7 +2,7 @@ import React from "react";
 var Homepage = () => {
     return (
         <div>
-            <h1>Welcome to Home Page</h1>
+            <center><h1>Welcome to Your Fantasy Team</h1></center>
         </div>
     );
 }

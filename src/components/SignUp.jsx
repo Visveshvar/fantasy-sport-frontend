@@ -126,7 +126,7 @@ var SignUp=()=>{
     return(
         <div className="container">
             <div className="box">
-            <center><h3>Sign Up</h3><br></br>
+            <center><h3 style={{color:"black"}}>Sign Up</h3><br></br>
                 <form onSubmit={onsubmitvalidation}>
                 <div className="form-floating">
                         <input className="form-control" type="text" placeholder="Email Id" required onChange={(e)=>setEmail(e.target.value)}></input>
@@ -214,7 +214,7 @@ var SignUp=()=>{
                         <label className="form-label">Confirm Password</label>
                     </div><br></br>
                     <button className="btn btn-primary" style={{width:'50%'}}>Sign Up</button><br></br>
-                <span>Have an account? <a className="SignUpanchor" href="/login">Log in</a></span>
+                <span style={{color:"black"}}>Have an account? <a className="SignUpanchor" href="/login">Log in</a></span>
                 </form></center>
                 
             </div>

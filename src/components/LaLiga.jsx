@@ -22,7 +22,7 @@ var LaLiga = () => {
                 <Link to={`/team/${leagueName}/${item.name}`} key={item.id}>
                     <div className="card">
                     <div className="card-body">
-                        <h1 className="card-title">{item.name}</h1>
+                        <h1 className="card-title" style={{fontSize:"20px"}}>{item.name}</h1>
                     </div>
                     </div>
                 </Link>

@@ -9,13 +9,14 @@ var League=()=>{
             <div className="grid-container">
                 <Link to='/premierleague'>
                 <div className="grid-item teams">
-                    <img className="PLimg" src="/images/premierleague.jpg"></img>
+                    <img className="PLimg" src="/images/premierleague.png"></img>
                     <h3>Premier League</h3>
                 </div>
                 </Link>
                 <Link to='/laliga'>
                 <div className="grid-item teams">
                     <img className="PLimg" src="/images/laliga.png" ></img>
+
                     <h3>La Liga</h3>
                 </div>
                 </Link>
@@ -33,7 +34,8 @@ var League=()=>{
                 </Link>
                 <Link to='/ligue1'>
                 <div className="grid-item teams">
-                <img className="PLimg" src="/images/ligue1.png" ></img>
+                <img className="PLimg" src="/images/ligue1.png
+                " ></img>
                     <h3>Ligue 1</h3>
                 </div>
                 </Link>
