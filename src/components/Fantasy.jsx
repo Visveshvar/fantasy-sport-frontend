@@ -61,7 +61,7 @@ const Fantasy = () => {
                             <td>{player.name}</td>
                             <td>{player.position}</td>
                             <td>
-                                <span className="material-symbols-outlined" onClick={() => handleRemoveElement(player._id)}>
+                                <span className="material-symbols-outlined removesymbol" onClick={() => handleRemoveElement(player._id)}>
                                     remove_circle
                                 </span>
                             </td>

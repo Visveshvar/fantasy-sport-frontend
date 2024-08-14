@@ -80,7 +80,12 @@
     vertical-align: middle; /* Align icon with text */
     transform: translateY(2px); /* Fine-tune vertical alignment */
 }
-
+.addsymbol:hover{
+    color:lawngreen
+}
+.removesymbol:hover{
+    color:red;
+}
 .PLimg {
     width: 100%;
     height: auto; /* Ensure image height adjusts to the container width */

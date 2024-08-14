@@ -65,7 +65,7 @@ const PlayerDetail = () => {
                                 <td>{player.position}</td>
                                 <td>
                                     <span 
-                                        className="material-symbols-outlined" 
+                                        className="material-symbols-outlined addsymbol" 
                                         onClick={() => handleAddPlayer(player)}
                                     >
                                         add_circle
